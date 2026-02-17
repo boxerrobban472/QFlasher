@@ -3,7 +3,6 @@
 A macOS app to flash Arduino UNO Q boards with the latest Debian firmware.
 
 ## Features
-- Windows Vista/Aero-inspired UI
 - Automatic USB device detection (Qualcomm EDL mode)
 - Step-by-step flashing wizard with visual instructions
 - Safe cancellation indicators
