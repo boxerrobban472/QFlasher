@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001F6194F6BB3F146F742359 /* FlasherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669D63F7877A3EFA66E561C0 /* FlasherViewModel.swift */; };
+		060A0A4DB0BDEDA25F744F40 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDE06F40ECD4637BF91C175 /* WelcomeView.swift */; };
+		112D523BD03A320791897798 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E5F57EA60ABCBB668BABF4 /* ContentView.swift */; };
+		1F83DB92D2B5C7796F605DDC /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17AD90A838AC0FE9862AD9B /* CompletionView.swift */; };
+		3BACEC20EB9D13A6EEB08479 /* USBMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8CE460A0047954CA8A9E21 /* USBMonitor.swift */; };
+		446DD4D4E8D008F3CE72ABEA /* FlasherCLI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51130BA1B316048C1ACD1F30 /* FlasherCLI.swift */; };
+		5548609DD3D2A9AAEBE3750D /* FlashingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225D2AC8C0777A6FD8A39562 /* FlashingView.swift */; };
+		667DA2E727C3AB6D0EC8F3D0 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0FB9A15196E90C6596972E /* ErrorView.swift */; };
+		8E9AD6FAEB69452DCC40FFD9 /* WaitingForDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C611B9AB64624A75217B7E1 /* WaitingForDeviceView.swift */; };
+		F8CFF85F39289463849A977F /* QFlasherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99807E7470E9292BD1B620B0 /* QFlasherApp.swift */; };
+		FEE0780E420CF8BBFCDFAE79 /* JumperInstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D202D818EF5ADF58DB3911 /* JumperInstructionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E5F57EA60ABCBB668BABF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		225D2AC8C0777A6FD8A39562 /* FlashingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashingView.swift; sourceTree = "<group>"; };
+		23D202D818EF5ADF58DB3911 /* JumperInstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumperInstructionView.swift; sourceTree = "<group>"; };
+		2525FDAB0B4C0A836EC2CB41 /* QFlasher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QFlasher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C611B9AB64624A75217B7E1 /* WaitingForDeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingForDeviceView.swift; sourceTree = "<group>"; };
+		51130BA1B316048C1ACD1F30 /* FlasherCLI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlasherCLI.swift; sourceTree = "<group>"; };
+		669D63F7877A3EFA66E561C0 /* FlasherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlasherViewModel.swift; sourceTree = "<group>"; };
+		6E0FB9A15196E90C6596972E /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		8EDE06F40ECD4637BF91C175 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		99807E7470E9292BD1B620B0 /* QFlasherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QFlasherApp.swift; sourceTree = "<group>"; };
+		B17AD90A838AC0FE9862AD9B /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		FC8CE460A0047954CA8A9E21 /* USBMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16BED169B97F35EB1196FEBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B17AD90A838AC0FE9862AD9B /* CompletionView.swift */,
+				01E5F57EA60ABCBB668BABF4 /* ContentView.swift */,
+				6E0FB9A15196E90C6596972E /* ErrorView.swift */,
+				225D2AC8C0777A6FD8A39562 /* FlashingView.swift */,
+				23D202D818EF5ADF58DB3911 /* JumperInstructionView.swift */,
+				2C611B9AB64624A75217B7E1 /* WaitingForDeviceView.swift */,
+				8EDE06F40ECD4637BF91C175 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		497E30934296C58F4D748AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2525FDAB0B4C0A836EC2CB41 /* QFlasher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91815B31AB4C561257C3D163 = {
+			isa = PBXGroup;
+			children = (
+				F936386EAA8CE5E5E5E11DA6 /* Sources */,
+				497E30934296C58F4D748AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB5A619BBA400F9883961C61 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				669D63F7877A3EFA66E561C0 /* FlasherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E0807250CEC1A4F226AECDB0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51130BA1B316048C1ACD1F30 /* FlasherCLI.swift */,
+				FC8CE460A0047954CA8A9E21 /* USBMonitor.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F936386EAA8CE5E5E5E11DA6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				99807E7470E9292BD1B620B0 /* QFlasherApp.swift */,
+				E0807250CEC1A4F226AECDB0 /* Services */,
+				DB5A619BBA400F9883961C61 /* ViewModels */,
+				16BED169B97F35EB1196FEBA /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DAFB183DFD8401F2313CADA /* QFlasher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D26CDE6648D57838D4B109A /* Build configuration list for PBXNativeTarget "QFlasher" */;
+			buildPhases = (
+				2D97855FF57C2EEBE699F807 /* Set CLI Permissions */,
+				A538C619BC5417698CFE9363 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QFlasher;
+			packageProductDependencies = (
+			);
+			productName = QFlasher;
+			productReference = 2525FDAB0B4C0A836EC2CB41 /* QFlasher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A039D62CED5AC2E715C2AEC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9DAFB183DFD8401F2313CADA = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9C5F65592B0A9AAC9E7D28C8 /* Build configuration list for PBXProject "QFlasher" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 91815B31AB4C561257C3D163;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DAFB183DFD8401F2313CADA /* QFlasher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D97855FF57C2EEBE699F807 /* Set CLI Permissions */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Set CLI Permissions";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "chmod +x \"${SRCROOT}/Resources/arduino-flasher-cli\" 2>/dev/null || true\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A538C619BC5417698CFE9363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F83DB92D2B5C7796F605DDC /* CompletionView.swift in Sources */,
+				112D523BD03A320791897798 /* ContentView.swift in Sources */,
+				667DA2E727C3AB6D0EC8F3D0 /* ErrorView.swift in Sources */,
+				446DD4D4E8D008F3CE72ABEA /* FlasherCLI.swift in Sources */,
+				001F6194F6BB3F146F742359 /* FlasherViewModel.swift in Sources */,
+				5548609DD3D2A9AAEBE3750D /* FlashingView.swift in Sources */,
+				FEE0780E420CF8BBFCDFAE79 /* JumperInstructionView.swift in Sources */,
+				F8CFF85F39289463849A977F /* QFlasherApp.swift in Sources */,
+				3BACEC20EB9D13A6EEB08479 /* USBMonitor.swift in Sources */,
+				8E9AD6FAEB69452DCC40FFD9 /* WaitingForDeviceView.swift in Sources */,
+				060A0A4DB0BDEDA25F744F40 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00EC6695FC4A5D8485B053D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = QFlasher;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		0C29F1DC30A6C76D79DCA8FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/QFlasher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johanlundgren.qflasher;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F33874125CEF602F96C2C2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Resources/QFlasher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johanlundgren.qflasher;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F5F557C2F5BAA5A43135F959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = QFlasher;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D26CDE6648D57838D4B109A /* Build configuration list for PBXNativeTarget "QFlasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F33874125CEF602F96C2C2FA /* Debug */,
+				0C29F1DC30A6C76D79DCA8FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9C5F65592B0A9AAC9E7D28C8 /* Build configuration list for PBXProject "QFlasher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00EC6695FC4A5D8485B053D0 /* Debug */,
+				F5F557C2F5BAA5A43135F959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A039D62CED5AC2E715C2AEC8 /* Project object */;
+}
